@@ -86,7 +86,6 @@ class Handle extends Component<HandleProps, HandleState>
 				class={classes}
 				style={style}
 				role="slider"
-				tabIndex={disabled ? undefined : -1}
 				aria-orientation={vertical ? 'vertical' : 'horizontal'}
 				aria-disabled={String( disabled )}
 				aria-valuemin={min}
